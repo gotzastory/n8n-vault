@@ -12,6 +12,11 @@ tags: [moc]
 - [[MOC - Best Practices]]
 - [[MOC - Troubleshooting]]
 
+## Workflow Knowledge
+- [[MOC - Workflows]]
+- [[Template - n8n Workflow]]
+- [[Template - Service Note]]
+
 ## Quick Links
 - [[Glossary]]
 - [[Template - Node Note]]
