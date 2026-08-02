@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "4a2617bd09b68b27",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ec85ef264b964fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f879e620f0d4a02",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "289d73f5e6b6a61b",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4f37e6dc093ecf1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64aadf068c77eb39",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a027c6884c2b5cfc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "54eb66d0ca955f8d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f6a5a00fb7ce2721",
+    "type": "split",
+    "children": [
+      {
+        "id": "8a97849e6c395cfc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c7c4588427414cc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "19cdfb4d27d23bdd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "94c2830964a2996d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4541fd6ad15be539",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "af58508a5c4f8f99",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "64aadf068c77eb39",
+  "lastOpenFiles": [
+    "README.md",
+    "Glossary.md",
+    "Attachments",
+    "06-Troubleshooting/Troubleshoot - Workflow Stuck in Queue.md",
+    "06-Troubleshooting/Troubleshoot - Webhook Not Triggering.md",
+    "06-Troubleshooting/Troubleshoot - Memory Issues on Self-Hosted.md",
+    "06-Troubleshooting/Troubleshoot - Expression Returns Undefined.md",
+    "06-Troubleshooting/Troubleshoot - Credential Auth Failed.md",
+    "06-Troubleshooting",
+    "05-Best-Practices/Best Practice - Version Control with git.md",
+    "05-Best-Practices/Best Practice - Sub-workflows for Reuse.md",
+    "05-Best-Practices/Best Practice - Naming Convention for Nodes.md",
+    "05-Best-Practices/Best Practice - Idempotent Workflows.md",
+    "05-Best-Practices/Best Practice - Error Workflow Setup.md",
+    "05-Best-Practices/Best Practice - Credential Management.md",
+    "05-Best-Practices",
+    "04-Self-Host/Deploy - Scaling Workers.md",
+    "04-Self-Host/Deploy - Reverse Proxy (Caddy_Nginx).md",
+    "04-Self-Host/Deploy - Queue Mode with Redis.md",
+    "04-Self-Host/Deploy - Environment Variables Reference.md",
+    "04-Self-Host/Deploy - Docker Compose.md",
+    "04-Self-Host/Deploy - Backup & Version Control of Workflows.md",
+    "04-Self-Host",
+    "03-Patterns/Pattern - Webhook to Database.md",
+    "03-Patterns/Pattern - Rate Limiting API Calls.md",
+    "03-Patterns/Pattern - RAG Pipeline in n8n.md",
+    "03-Patterns/Pattern - Polling API (Schedule Trigger).md",
+    "03-Patterns/Pattern - Error Handling with Error Trigger.md",
+    "03-Patterns/Pattern - Batch Processing with Split In Batches.md",
+    "03-Patterns/Pattern - Chatbot Workflow.md",
+    "03-Patterns",
+    "02-Nodes/Core",
+    "02-Nodes/App",
+    "02-Nodes/AI-LangChain",
+    "02-Nodes",
+    "01-Concepts"
+  ]
+}
