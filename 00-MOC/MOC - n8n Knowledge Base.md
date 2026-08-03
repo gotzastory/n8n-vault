@@ -11,6 +11,7 @@ tags: [moc]
 - [[MOC - Self-Hosting & Deployment]]
 - [[MOC - Best Practices]]
 - [[MOC - Troubleshooting]]
+- ⭐ **[[MOC - My Workflows]]** — ระบบจริงบน instance ตัวเอง (89 workflows, 10 active)
 
 ## Workflow Knowledge
 - [[MOC - Workflows]]
