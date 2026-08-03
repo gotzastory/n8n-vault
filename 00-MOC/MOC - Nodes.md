@@ -28,6 +28,7 @@ tags: [moc]
 ## App Integration Nodes
 - [[Node - Gmail]]
 - [[Node - Google Sheets]]
+- [[Node - Line Messaging]]
 - [[Node - Slack]]
 - [[Node - Notion]]
 - [[Node - Postgres]]

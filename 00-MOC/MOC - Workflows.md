@@ -6,7 +6,7 @@ type: moc
 # MOC — Workflows
 
 ## Approved / Built
-ไม่มี workflow ที่ได้รับอนุมัติหรือ Build แล้วในขณะนี้
+- [[Workflow - LINE OA CRM Sandbox Flow]]
 
 ## Drafts
 ไม่มี
