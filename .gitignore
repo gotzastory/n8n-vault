@@ -1,0 +1,33 @@
+# --- Private work (local SoT only — do not publish) ---
+vault/08 Worked Builds/*
+!vault/08 Worked Builds/README.md
+!vault/08 Worked Builds/Workflow - Example Sample.md
+vault/08 Worked Builds/*/
+
+vault/10 Client Systems/*
+!vault/10 Client Systems/README.md
+
+vault/_assets/*
+!vault/_assets/.gitkeep
+
+# Real INDEX has live workflow_id + client names
+vault/INDEX.md
+
+# Obsidian workspace noise
+vault/.obsidian/workspace.json
+vault/.obsidian/workspace-mobile.json
+vault/.obsidian/cache/
+**/.obsidian/workspace.json
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.Zone.Identifier
+
+# Secrets / env
+.env
+.env.*
+*.pem
+credentials.json
+**/secrets/

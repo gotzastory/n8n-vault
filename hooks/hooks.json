@@ -1,0 +1,17 @@
+{
+  "description": "n8n-vault path guard: warn if workflow/case Markdown is written outside vault/08 Worked Builds. Fail-open.",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -NonInteractive -ExecutionPolicy Bypass -File \"${CLAUDE_PROJECT_DIR}/hooks/scripts/n8n-vault-path-check.ps1\"",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": "powershell -NoProfile -NonInteractive -ExecutionPolicy Bypass -File .cursor/hooks/n8n-vault-session.ps1",
+        "timeout": 15
+      }
+    ],
+    "postToolUse": [
+      {
+        "command": "powershell -NoProfile -NonInteractive -ExecutionPolicy Bypass -File .cursor/hooks/n8n-vault-path-check-cursor.ps1",
+        "matcher": "Write|StrReplace|EditNotebook",
+        "timeout": 30
+      }
+    ],
+    "afterFileEdit": [
+      {
+        "command": "powershell -NoProfile -NonInteractive -ExecutionPolicy Bypass -File .cursor/hooks/n8n-vault-path-check-cursor.ps1",
+        "matcher": "Write|TabWrite",
+        "timeout": 30
+      }
+    ]
+  }
+}
